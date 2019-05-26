@@ -1,0 +1,11 @@
+.form-control:invalid{
+	border:1px solid #cc0000;
+}
+
+.flutuar-direita{
+	float:right;
+}
+
+body{
+	padding-top:55px;
+}

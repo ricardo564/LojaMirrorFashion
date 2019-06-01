@@ -3,7 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Sobre a Mirror Fashion</title>
-		
+		<!-- Bootstrap 4 online -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 		<link rel="stylesheet" href="css/sobre.css">
 
 	</head>
@@ -11,18 +12,13 @@
 	<body>
 
 		<a href="index.php">
-				<img src="img/logo.png" alt="Mirror	Fashion">
+			<img src="img/logo.png" alt="Mirror	Fashion">
 		</a>
 
 		
 		
 		<h1>A Mirror Fashion</h1>
-		<!--achar um lugar pra organizar
-		<div>
-			<iframe	width="420" height="315" src="http://www.youtube.com/embed/Tb06abHE4hY"
-			frameborder="0" allowfullscreen></iframe>
-		</div>
-	-->
+
 		<p>
 			A <strong>Mirror Fashion</strong> é a maior empresa comércio eletrônico no segmento de moda em todo o mundo. 
 			Fundada em 1932, possui filiais em 124 países, sendo líder de mercado com mais de 90% de 
@@ -80,11 +76,20 @@
   			<li>Presente em 124 países</li>
   			<li>Mais de um milhão de funcionários em todo o mundo</li>
 		</ul>
+		<hr>
+		<div class="row">
+			<div class="col-md-6">
+				<iframe	width="425" height="350" frameborder="0"
+					scrolling="no" marginheight="0" marginwidth="0"
+					src="http://maps.google.com.br/maps?q=Jacarezinho&amp;output=embed">
+				</iframe>
+			</div>
+			<div class="col-md-6">
+				<iframe	width="420" height="315" src="http://www.youtube.com/embed/Tb06abHE4hY"
+					frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>
 
-		<iframe	width="425" height="350" frameborder="0"
-			scrolling="no" marginheight="0" marginwidth="0"
-			src="http://maps.google.com.br/maps?q=Jacarezinho&amp;output=embed">
-		</iframe>
 		
 		<div id="rodape">
     		<img src="img/logo.png">

@@ -6,7 +6,7 @@
 <div class="container">
 	<div class="row d-flex justify-content-center" >
 		
-			<form class="col-md-8" action="contato.php" method="POST">
+			<form class="col-md-8" action="mensagem_ajuda.php" method="POST">
 
 				<div class="form-group">
 					<div>
@@ -54,7 +54,7 @@
 </div>
 <br>
 
-<?php
+<!--<?php
 
 	
 		$nome=$_POST['txtnome'];
@@ -98,7 +98,7 @@
 		}
 
 	
-?>
+?>-->
 
 		
 

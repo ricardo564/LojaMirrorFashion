@@ -43,7 +43,7 @@
 
 	<nav class="menu-opcoes">
 		<ul>
-			<li><a href="#">Sua Conta</a></li>
+			<li><a href="login_register.php">LOGAR/CADASTRAR</a></li>
 			<li><a href="#">Lista de Desejos</a></li>
 			<li><a href="#">Cartão Fidelidade</a></li>
 			<li><a href="sobre.php">Sobre</a></li>

@@ -47,7 +47,7 @@
 			<nav class="navbar border d-flex justify-content-center border-primary">
 				<ul class='nav nav-pills navbar-right'>
 					<li class='nav-item'>
-						<a class='nav-link' href="#">Sua Conta</a>
+						<a class='nav-link' href="login_register.php">LOGAR/CADASTRAR</a>
 					</li>
 					<li class='nav-item'>
 						<a class='nav-link' href="#">Lista de Desejos</a>

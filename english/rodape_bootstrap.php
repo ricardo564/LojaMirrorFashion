@@ -1,5 +1,5 @@
 
-<footer class="bg-dark footer ">
+<footer class="bg-dark footer fixed-bottom ">
 	<!--	Conteúdo	do	rodapé	-->
 	<div class="row container ">
 

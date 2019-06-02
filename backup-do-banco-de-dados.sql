@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 24-Maio-2019 às 21:04
+-- Generation Time: 02-Jun-2019 às 17:17
 -- Versão do servidor: 10.1.38-MariaDB
 -- versão do PHP: 7.3.2
 
@@ -21,6 +21,28 @@ SET time_zone = "+00:00";
 --
 -- Database: `wd43`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `help_messages`
+--
+
+CREATE TABLE `help_messages` (
+  `name` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `email` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `phone` int(20) NOT NULL,
+  `message` varchar(200) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `photo` varbinary(8000) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Extraindo dados da tabela `help_messages`
+--
+
+INSERT INTO `help_messages` (`name`, `email`, `phone`, `message`, `photo`) VALUES
+('nome1', 'email1', 0, 'mensagem1', 0x666f746f31),
+('name2', 'email2', 0, 'message2', 0x70686f746f32);
 
 -- --------------------------------------------------------
 
@@ -76,7 +98,7 @@ ALTER TABLE `produtos`
 -- AUTO_INCREMENT for table `produtos`
 --
 ALTER TABLE `produtos`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

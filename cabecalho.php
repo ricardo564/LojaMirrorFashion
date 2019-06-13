@@ -15,6 +15,7 @@
 	<link rel="icon" href="img/Mirror.png">
 	<script type="text/javascript" src="js/produto.js"></script>
 	<?php print @$cabecalho_css; ?>
+	
 </head>
 
 <body>

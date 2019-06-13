@@ -411,3 +411,7 @@ footer .container{
 	display:inline-block;
 }
 
+
+#all_products a:hover{
+	color:white;
+}

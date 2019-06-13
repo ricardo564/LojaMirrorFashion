@@ -34,7 +34,7 @@ include("cabecalho.php");
 					</ul>
 				</li>
 
-				<li><a href="">Calças</a></li>
+				<li><a href="calcas.php">Calças</a></li>
 				<li><a href="">Saias</a></li>
 				<li><a href="">Vestidos</a></li>
 				<li><a href="">Sapatos</a></li>
@@ -43,7 +43,7 @@ include("cabecalho.php");
 			</ul>
 		</nav>
 		<br>
-		<h2><a href=todos_os_produtos.php>Todos os Produtos</a></h2>
+		<h2 id="all_products"><a href=todos_os_produtos.php>Todos os Produtos</a></h2>
 	</section><!-- fim .menu-departamentos-->
 	<div class="banner-destaque">
 		<a href="#" class="pause"></a>

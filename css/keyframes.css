@@ -1,0 +1,13 @@
+#panda-login{
+	animation: pulsar 10s infinite;
+}
+
+@keyframes pulsar{
+	from{
+		transform:scale(0.9);
+	}
+	
+	to{
+		transform:scale(1);
+	}
+}

@@ -9,18 +9,19 @@ include("conexao_bancophp.php");
 
 <div class="container mt-5""><!--janela principal inicio-->
 
-	<div class="container text-center col-md-4 col-md-offset-3 mb-5 div_form_loggin_register" ><!--2-->		
-		<div id="mirror_form_register" >
+	<div class="container text-center col-md-7 col-md-offset-3 mb-5 div_form_loggin_register" ><!--2-->		
+		<div id="mirror_form_register" class="text-left card p-3" >
 			<form  method="POST" action="register.php"><!--formulario para cadastro-->
-				<label  for="mirror_name_register">nome</label>
+				<label class="card-title"  for="mirror_name_register">nome</label>
 				<input class="mb-1 form-control" id="mirror_name_register" name="mirror_name_register" type="text" placeholder="Meng Hao">
 
-				<label  for="mirror_email_register">Email</label>
+
+				<label class="card-title"  for="mirror_email_register">Email</label>
 				<input class="mb-1 form-control" id="mirror_email_register" name="mirror_email_register" type="text" placeholder="TrueImmortalEmail@NovesReinos.cultivo">
 
 				<br>
 
-				<label  for="mirror_password_register">Senha</label>
+				<label class="card-title"  for="mirror_password_register">Senha</label>
 				<input class="form-control" id="mirror_password_register" name="mirror_password_register" type="password" placeholder="123456">
 
 				<br>

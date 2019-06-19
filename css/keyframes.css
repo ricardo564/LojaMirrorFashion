@@ -11,3 +11,18 @@
 		transform:scale(1);
 	}
 }
+
+
+#panda-login{
+	animation: girar 30s infinite;
+}
+
+@keyframes girar{
+	from{
+		transform:rotate(0deg);
+	}
+	
+	to{
+		transform:rotate(360deg);
+	}
+}

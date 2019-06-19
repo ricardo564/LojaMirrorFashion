@@ -22,7 +22,7 @@ include("cabecalho_bootstrap.php")
 				<br>
 
 				<div class=" d-flex align-items-center justify-content-center">
-					<button class="btn btn-primary btn-lg">CADASTRAR</button>		
+					<button class="btn btn-primary btn-lg">CADASTRAR<0/button>		
 				</div>						
 			</form><!--/formulario para cadastro-->
 		</div>

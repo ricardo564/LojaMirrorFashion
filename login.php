@@ -9,7 +9,7 @@ include("cabecalho_bootstrap.php")
 <div class="container mt-5""><!--janela principal inicio-->
 
 	<div class="container text-center col-md-4 col-md-offset-3 mb-5 div_form_loggin_register" ><!--2-->
-	
+
 		<div  id="mirror_form_login"><!--formulario para login-->
 			<!--imagem clikavel do espelho inicio-->
 
@@ -19,15 +19,16 @@ include("cabecalho_bootstrap.php")
 				</a>	
 			</div><!--imagem clikavel do espelho fim-->
 			<form method="POST" action="login_register.php">
-				<label  for="panmail">Email</label>
-				<input class="mb-1 form-control" id="panmail" type="text" placeholder="TrueImmortalEmail@NovesReinos.cultivo">
+				<div class="p-2">
+					<label  for="panmail"><i class="fas fa-envelope"> Email</i></label>
+					<input class="mb-1 form-control" id="panmail" type="text" placeholder="TrueImmortalEmail@NovesReinos.cultivo">
+				</div>
+				
+				<div class="p-2">
+					<label  for="panssword"><i class="fas fa-key"> Senha</i></label>
+					<input class="form-control" id="panssword" type="password" placeholder="Texto Misterioso">
+				</div>				
 
-				<br>
-
-				<label  for="panssword">Senha</label>
-				<input class="form-control" id="panssword" type="password" placeholder="Texto Misterioso">
-
-				<br>
 
 				<div class=" d-flex align-items-center justify-content-center">
 					<button class="btn btn-primary btn-lg">LOGAR</button>		
@@ -35,7 +36,7 @@ include("cabecalho_bootstrap.php")
 			</form><!--/formulario para login-->
 		</div>
 		
-	
+
 
 	</div><!--janela principal inicio-->
 

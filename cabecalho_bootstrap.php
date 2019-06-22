@@ -11,9 +11,6 @@
 	<!-- Icone no topo da aba da pagina -->
 	<link rel="icon" href="img/Mirror.png">
 
-	<!-- jquery Pessoal para formulario -->
-	<link rel="stylesheet" type="text/css" href="js/login_register.js">
-
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>

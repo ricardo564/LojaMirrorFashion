@@ -2,7 +2,7 @@
 <br>
 <h2 class="bg-dark">LojaMirrorFashion</h2>
 <br>
-<p> Curso de Gestão da Tecnologia da Informação</p>
+<p> Curso de Gestão da Tecnologia da Informação - FATEC jahu</p>
 <br>
 <p>Site completo em dois idiomas para trabalho escolar baseado na Apostila Front End da Caelum</p>
 <br>

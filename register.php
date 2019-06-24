@@ -33,7 +33,7 @@ include("conexao_bancophp.php");
 					<input class="form-control" id="mirror_password_register" name="mirror_password_register" type="password" placeholder="123456">
 				</div>
 				<div class=" d-flex align-items-center justify-content-center p-2">
-					<button class="btn btn-primary btn-lg" name="register">CADASTRAR <i class="fas fa-hand-pointer"></i></button>		
+					<button class="btn btn-primary btn-lg" name="btn_register">CADASTRAR <i class="fas fa-hand-pointer"></i></button>		
 				</div>
 			</form><!--/formulario para cadastro-->
 		</div>
@@ -47,31 +47,34 @@ include("conexao_bancophp.php");
 		$user_register_password = @$_POST['mirror_password_register'];
 		$user_register_phone = @$_POST['mirror_register_phone'];
 
-		if(empty($user_register_name)||empty($user_register_mail)||empty($user_register_password)){
-			echo'
-			<div class="text-center">
-			<p class="border border-danger p-2 text-danger  rounded">
-			Por Favor Preencha todos os campos com * !
-			</p>
-			</div>
-			';
-		}else{
+		if(isset($_POST['btn_register'])):
+			if(empty($user_register_name)||empty($user_register_mail)||empty($user_register_password)){
+				echo'
+				<div class="text-center">
+				<p class="border border-danger p-2 text-danger  rounded">
+				Por Favor Preencha todos os campos com * !
+				</p>
+				</div>
+				';
+			}else{
 
-			$sql_register="INSERT INTO users(user_name,user_mail,mirror_user_phone,user_password) VALUES ('$user_register_name','$user_register_mail','$user_register_phone','$user_register_password')";
-			$rs = mysqli_query($conexao, $sql_register);
-			mysqli_close($conexao);
+				$sql_register="INSERT INTO users(user_name,user_mail,mirror_user_phone,user_password) VALUES ('$user_register_name','$user_register_mail','$user_register_phone','$user_register_password')";
+				$rs = mysqli_query($conexao, $sql_register);
+				mysqli_close($conexao);
 
-			echo'
-			<div class="text-center">
-			<p class="border border-success p-2 text-success  rounded">
-			Cadastro efetuado com sucesso !!
-			</p>
-			</div>
-			';
-			unset($_POST); 
-			header("location: login.php"); die('Não ignore meu cabeçalho...');
-			exit;
-		};
+				echo'
+				<div class="text-center">
+				<p class="border border-success p-2 text-success  rounded">
+				Cadastro efetuado com sucesso !!
+				</p>
+				</div>
+				';
+				unset($_POST); 
+				header("location: login.php"); die('Não ignore meu cabeçalho...');
+				exit;
+			};
+		endif;
+
 
 		?>	
 	</div>

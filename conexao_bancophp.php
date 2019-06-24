@@ -4,4 +4,8 @@
 	
 	$dadosF = mysqli_fetch_all($dados);
 	$produtos = mysqli_fetch_array($dados);
+
+	if(mysqli_connect_error()):
+		echo "Falha na conexão: ".mysqli_connect_error();
+	endif;
 ?>

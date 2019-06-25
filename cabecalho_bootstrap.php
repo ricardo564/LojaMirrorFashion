@@ -41,7 +41,7 @@
 	</div>
 
 	<header>
-		<nav  class="navbar navbar-expand-md navbar-primary">
+		<nav  class="navbar navbar-expand-lg">
 			<a href="index.php">
 				<img class='navbar-brand' src="img/logo.png" alt="Mirror	Fashion">
 			</a> 
@@ -50,11 +50,9 @@
 				<i class="fas fa-bars fa-2x"></i>
 			</button>
 
-			<div class="collapse navbar-collapse" id="navbar_mirror_fashion">
-				<ul class='navbar-nav'>
-					<li class='nav-item'>
-						<a class='nav-link' href="index.php">Inicio</a>
-					</li>
+			<div class="collapse navbar-collapse " id="navbar_mirror_fashion">
+				<ul class='navbar-nav ml-md-auto '>
+					
 					<li class='nav-item'>
 						<a class='nav-link' href="login.php">Logar</a>
 					</li>

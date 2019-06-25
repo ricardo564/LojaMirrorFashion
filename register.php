@@ -16,19 +16,19 @@ include("conexao_bancophp.php");
 		<div id="mirror_form_register" class="text-left card p-3" >
 
 			<form  method="POST" action="register.php"><!--formulario para cadastro-->
-				<div class="p-2">
+				<div class="p-2 form-group">
 					<label class="card-title"  for="mirror_name_register"><i class="fas fa-file-signature"> Nome *</i></label>
 					<input class="mb-1 form-control" id="mirror_name_register" name="mirror_name_register" type="text" placeholder="Meng Hao">
 				</div>
-				<div class="p-2">
+				<div class="p-2 form-group">
 					<label class="card-title"  for="mirror_email_register"><i class="fas fa-envelope"> Email *</i> </label>
 					<input class="mb-1 form-control" id="mirror_email_register" name="mirror_email_register" type="text" placeholder="TrueImmortalEmail@NovesReinos.cultivo">
 				</div>
-				<div class="p-2">
+				<div class="p-2 form-group">
 					<label class="card-title"  for="mirror_register_phone"><i class="fas fa-phone"> Telefone</i> </label>
 					<input class="form-control" id="mirror_register_phone" name="mirror_register_phone" type="text" placeholder="14998478537">
 				</div>
-				<div class="p-2">
+				<div class="p-2 form-group">
 					<label class="card-title"  for="mirror_password_register"><i class="fas fa-key"> Senha *</i></label>
 					<input class="form-control" id="mirror_password_register" name="mirror_password_register" type="password" placeholder="123456">
 				</div>
@@ -39,7 +39,7 @@ include("conexao_bancophp.php");
 		</div>
 	</div><!--/janela principal inicio-->
 
-	<div class="container text-center col-md-5 col-md-offset-3 mb-5 div_form_loggin_register" >
+	<div class="container text-center col-md-5 col-md-offset-3 div_form_loggin_register mb-5 pb-5" >
 		<?php
 
 		$user_register_name = @$_POST['mirror_name_register'];
@@ -79,7 +79,8 @@ include("conexao_bancophp.php");
 		?>	
 	</div>
 
-
+<div class="p-5 mb-5"><!--para contornar a sobreposição do footer-->
+	</div>
 
 	<?php
 	include("rodape_bootstrap.php")

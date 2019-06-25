@@ -1,4 +1,6 @@
-<footer class="bg-dark footer fixed-bottom ">
+
+<div id="rodape">
+	<footer class="bg-dark footer fixed-bottom">
 	<!--	Conteúdo	do	rodapé	-->
 	<div class="row container ">
 		<div class="col-md-4">
@@ -6,8 +8,19 @@
 				<img class="p-4"  src="img/logo-rodape.png" alt="Logo	Mirror	Fashion">
 			</a>		
 		</div>
+
+		<div class="col-md-4 mt-1">
+			<div  class="text-white">
+				<div>
+					<label >Telefone para Contato:(14)3626-5740</label>
+				</div>
+				<div>
+					<label  >Email para Contato:True_Immortal@Coding.com</label>
+				</div>
+			</div>
+		</div>
 		
-		<div class="col-md-8">
+		<div class="col-md-4">
 			<div class="d-flex justify-content-end">
 				<div class="p-2">
 					<a	href="http://facebook.com/mirrorfashion">
@@ -25,17 +38,10 @@
 					</a>
 				</div>
 			</div>
-			<div  class="text-white">
-				<div>
-					<label >Telefone para Contato:(14)3626-5740</label>
-				</div>
-				<div>
-					<label  >Email para Contato:True_Immortal@Coding.com</label>
-				</div>
-			</div>
 		</div>	
 	</div>
 </footer>
+
 
 
 <!-- JavaScript (Opcional) -->
@@ -44,6 +50,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-
+</div>
 </body>
 </html>

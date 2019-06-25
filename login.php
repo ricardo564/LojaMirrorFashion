@@ -57,7 +57,7 @@ endif;
 	<link rel="stylesheet" href="css/keyframes.css">
 </head>
 
-<div class="container mt-5"><!--janela principal inicio-->
+<div class="container mt-5 mb-5 pb-5"><!--janela principal inicio-->
 
 	<div class="container text-center col-md-4 col-md-offset-3 mb-5 div_form_loggin_register" ><!--2-->
 
@@ -97,6 +97,9 @@ endif;
 
 
 	</div><!--janela principal inicio-->
+
+	<div class="p-5 mb-5"><!--para contornar a sobreposição do footer-->
+	</div>
 
 
 

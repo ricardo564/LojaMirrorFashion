@@ -32,7 +32,7 @@ if (isset($_POST['btn_login'])):
 				$_SESSION['user_code']=$dados['user_code'];
 				$_SESSION['user_name'] = $dados['user_name'];
 				$_SESSION['user_mail'] = $dados['user_mail'];
-				header('Location: home.php');
+				header('Location: user_connected.php');
 			else:
 				$errors[]="
 				<div class='text-center mt-2'>
@@ -57,7 +57,7 @@ endif;
 	<link rel="stylesheet" href="css/keyframes.css">
 </head>
 
-<div class="container mt-5""><!--janela principal inicio-->
+<div class="container mt-5"><!--janela principal inicio-->
 
 	<div class="container text-center col-md-4 col-md-offset-3 mb-5 div_form_loggin_register" ><!--2-->
 

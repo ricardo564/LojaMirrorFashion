@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 20-Jun-2019 às 02:46
+-- Tempo de geração: 26-Jun-2019 às 20:28
 -- Versão do servidor: 10.3.15-MariaDB
 -- versão do PHP: 7.3.6
 
@@ -89,10 +89,18 @@ INSERT INTO `produtos` (`id`, `nome`, `preco`, `descricao`, `type`, `data`, `ven
 
 CREATE TABLE `users` (
   `user_code` int(11) NOT NULL,
-  `user_name` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
-  `user_mail` varchar(30) COLLATE utf8_unicode_ci NOT NULL,
-  `user_password` varchar(20) COLLATE utf8_unicode_ci NOT NULL
+  `user_name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `mirror_user_phone` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `user_mail` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `user_password` varchar(32) COLLATE utf8_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Extraindo dados da tabela `users`
+--
+
+INSERT INTO `users` (`user_code`, `user_name`, `mirror_user_phone`, `user_mail`, `user_password`) VALUES
+(5, 'Ricardo Camilo', '14998458235', 'ricardo_hawks@hotmail.com', '0ee8b85a85a49346fdff9665312a5cc4');
 
 --
 -- Índices para tabelas despejadas
@@ -124,7 +132,7 @@ ALTER TABLE `produtos`
 -- AUTO_INCREMENT de tabela `users`
 --
 ALTER TABLE `users`
-  MODIFY `user_code` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `user_code` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

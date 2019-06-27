@@ -12,10 +12,7 @@
 		<div class="col-md-4 mt-1">
 			<div  class="text-white">
 				<div>
-					<label >Telefone para Contato:(14)3626-5740</label>
-				</div>
-				<div>
-					<label  >Email para Contato:True_Immortal@Coding.com</label>
+					<label class="btn btn-lg" ><a class="text-white" href="https://github.com/ricardo564/LojaMirrorFashion">Pagina do Projeto no GitHub</a> </label>
 				</div>
 			</div>
 		</div>

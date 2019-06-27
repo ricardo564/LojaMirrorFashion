@@ -2,7 +2,7 @@
 	$servername="127.0.0.1";
 	$username="root";
 	$password="";
-	$db_name="wd43"
+	$db_name="wd43";
 
 	$conexao = mysqli_connect($servername,$username,$password,$db_name);
 	$dados = mysqli_query($conexao,"SELECT * FROM produtos");

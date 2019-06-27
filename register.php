@@ -58,7 +58,7 @@ include("conexao_bancophp.php");
 				';
 			}else{
 
-				$sql_register="INSERT INTO users(user_name,user_mail,mirror_user_phone,user_password) VALUES ('$user_register_name','$user_register_mail','$user_register_phone','$user_register_password')";
+				$sql_register="INSERT INTO users(user_name,user_mail,mirror_user_phone,user_password) VALUES ('$user_register_name','$user_register_mail','$user_register_phone',md5($user_register_password))";
 				$rs = mysqli_query($conexao, $sql_register);
 				mysqli_close($conexao);
 
@@ -70,7 +70,7 @@ include("conexao_bancophp.php");
 				</div>
 				';
 				unset($_POST); 
-				header("location: login.php"); die('Não ignore meu cabeçalho...');
+				
 				exit;
 			};
 		endif;

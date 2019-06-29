@@ -1,3 +1,4 @@
+<div class="container p-1"><!--TUDO-->
 <?php
 $cabecalho_title='Login/Cadastro';
 include("cabecalho_bootstrap.php");
@@ -22,7 +23,7 @@ include("conexao_bancophp.php");
 				</div>
 				<div class="p-2 form-group">
 					<label class="card-title"  for="mirror_email_register"><i class="fas fa-envelope"> Email *</i> </label>
-					<input class="mb-1 form-control" id="mirror_email_register" name="mirror_email_register" type="text" placeholder="TrueImmortalEmail@NovesReinos.cultivo">
+					<input class="mb-1 form-control" id="mirror_email_register" name="mirror_email_register" type="text" placeholder="TrueImmortalEmail@NoveReinos.cultivo">
 				</div>
 				<div class="p-2 form-group">
 					<label class="card-title"  for="mirror_register_phone"><i class="fas fa-phone"> Telefone</i> </label>
@@ -81,6 +82,7 @@ include("conexao_bancophp.php");
 
 <div class="p-5 mb-5"><!--para contornar a sobreposição do footer-->
 	</div>
+</div>
 
 	<?php
 	include("rodape_bootstrap.php")

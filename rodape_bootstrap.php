@@ -1,6 +1,6 @@
 
-<div id="rodape">
-	<footer class="bg-dark footer fixed-bottom">
+<div id="rodape ">
+	<footer class="bg-dark footer fixed-bottom d-none d-md-block">
 	<!--	Conteúdo	do	rodapé	-->
 	<div class="row container ">
 		<div class="col-md-4">

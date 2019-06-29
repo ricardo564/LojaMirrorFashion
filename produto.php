@@ -1,7 +1,7 @@
 <?php
 
 
-$conexao = mysqli_connect("127.0.0.1","root","","wd43");
+include("conexao_bancophp.php");
 $dados = mysqli_query($conexao,"SELECT * FROM produtos WHERE id=".$_GET['id']);
 $produtos = mysqli_fetch_array($dados);
 

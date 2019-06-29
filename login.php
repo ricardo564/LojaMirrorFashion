@@ -1,3 +1,4 @@
+<div class="container p-1"><!--TUDO-->
 <?php
 $cabecalho_title='Login/Cadastro';
 include("cabecalho_bootstrap.php");
@@ -101,7 +102,7 @@ endif;
 	<div class="p-5 mb-5"><!--para contornar a sobreposição do footer-->
 	</div>
 
-
+</div>
 
 
 	<?php

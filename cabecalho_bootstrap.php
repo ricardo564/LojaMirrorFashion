@@ -21,7 +21,7 @@
 
 
 </head>
-<body>
+<body class="tamanho_site">
 
 	<div class="row">
 		<div class='col-md-12'>
@@ -54,22 +54,34 @@
 				<ul class='navbar-nav ml-md-auto '>
 					
 					<li class='nav-item'>
-						<a class='nav-link' href="login.php">Logar</a>
+						<a class='nav-link' href="login.php">
+							<u>Logar</u>
+						</a>
 					</li>
 					<li class='nav-item'>
-						<a class='nav-link' href="register.php">Cadastrar</a>
+						<a class='nav-link' href="register.php">
+							<u>Cadastrar</u>
+						</a>
 					</li>
 					<li class='nav-item'>
-						<a class='nav-link' href="#">Lista de Desejos</a>
+						<a class='nav-link' href="#">
+							<u>Lista de Desejos</u>
+						</a>
 					</li>
 					<li class='nav-item'>
-						<a class='nav-link' href="#">Cartão Fidelidade</a>
+						<a class='nav-link' href="#">
+							<u>Cartão Fidelidade</u>
+						</a>
 					</li>
 					<li class='nav-item'>
-						<a class='nav-link' href="sobre.php">Sobre</a>
+						<a class='nav-link' href="sobre.php">
+							<u>Sobre</u>
+						</a>
 					</li>
 					<li class='nav-item'>
-						<a class='nav-link' href="contato.php">Ajuda</a>
+						<a class='nav-link' href="contato.php">
+							<u>Ajuda</u>
+						</a>
 					</li>
 
 				</ul>

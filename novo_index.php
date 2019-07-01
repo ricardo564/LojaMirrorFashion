@@ -14,7 +14,13 @@
 			<div class="col-md-3 border border-light rounded text-dark bg-light">
 				<section>
 					<form class="form-inline mt-2" action="busca.php" method="GET">
-						<input class="form-control" type="search" id="txtbusca" name="txtbusca">
+						<div class="form-group">
+
+						<input class="form-control" type="search" id="txtbusca" name="txtbusca">	
+						<label for="txtbusca">
+							<i class="fas fa-search fa-lg p-2"></i>
+						</label>					
+						</div>
 
 						
 					</form>		<!--fim da busca-->

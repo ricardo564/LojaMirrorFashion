@@ -6,6 +6,10 @@ body{
 	font-family: "PT Sans", sans-serif;
 }
 
+.tamanho_site{
+	width: 940px;
+}
+
 .bandeira:hover{
 	transform: scale(1.5);
 }

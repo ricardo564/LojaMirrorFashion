@@ -21,7 +21,7 @@
 
 
 </head>
-<body class="tamanho_site">
+<body>
 
 	<div class="row">
 		<div class='col-md-12'>
@@ -89,8 +89,6 @@
 		</nav>
 
 	</header>
-
-	
 
 </body>
 </html>

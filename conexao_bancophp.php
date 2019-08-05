@@ -6,12 +6,7 @@
 	$db_name="wd43";
 
 
-	/*
-	$servername="127.0.0.1";
-	$username="1164858";
-	$password="36265740mui!";
-	$db_name="1164858";
-*/
+
 
 	$conexao = mysqli_connect($servername,$username,$password,$db_name);
 	$dados = mysqli_query($conexao,"SELECT * FROM produtos");

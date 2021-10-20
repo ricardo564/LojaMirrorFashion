@@ -20,7 +20,6 @@
 <ol>
 <h3>Membros:</h3>
 <li>Ricardo Camilo</li>
-<li>Thiago Furquim</li>
 </ol>
 </div>
 

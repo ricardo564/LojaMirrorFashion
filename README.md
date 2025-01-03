@@ -1,26 +1,34 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-	<title>README</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-</head>
-<body>
-	<div class="container">
-		<h1 class="text-center">Trabalho para o Projeto Interdisciplinar IV (Programação para Internet)</h1>
-		<br>
-		<h2 class="text-center bg-dark text-white">LojaMirrorFashion</h2>
-		<br>
-		<p class="text-center">Curso de Gestão da Tecnologia da Informação - FATEC jahu</p>
-		<br>
-		<p class="text-center">Site completo em dois idiomas para trabalho escolar baseado na Apostila Front End da Caelum</p>
-		<br>
-		<div class="text-center">
-			<h3>Membros:</h3>
-			<ul>
-				<li>Ricardo Camilo</li>
-			</ul>
-		</div>
-	</div>
-</body>
+
+<div align="center">
+
+# Mirror Fashion Store | Loja Mirror Fashion
+
+[English](#english) | [Português](#português)
+
+[![Made with Bootstrap](https://img.shields.io/badge/Made%20with-Bootstrap-7952B3.svg)](https://getbootstrap.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Website](https://img.shields.io/website?url=https://your-demo-url.com)](https://your-demo-url.com)
+
+</div>
+
+---
+
+# English
+
+## 📝 About
+
+An e-commerce website developed as part of the Interdisciplinary Project IV (Internet Programming) course at FATEC Jahu. Based on Caelum's Front-End workbook, this project implements a complete bilingual online store.
+
+---
+
+# Português
+
+## 📝 Sobre
+
+Um website de e-commerce desenvolvido como parte do Projeto Interdisciplinar IV (Programação para Internet) da FATEC Jahu. Baseado na Apostila Front-End da Caelum, este projeto implementa o layout e algumas funcionalidades de uma loja online.
+
+```
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---

@@ -27,8 +27,6 @@ An e-commerce website developed as part of the Interdisciplinary Project IV (Int
 
 Um website de e-commerce desenvolvido como parte do Projeto Interdisciplinar IV (Programação para Internet) da FATEC Jahu. Baseado na Apostila Front-End da Caelum, este projeto implementa o layout e algumas funcionalidades de uma loja online.
 
-```
+---
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
